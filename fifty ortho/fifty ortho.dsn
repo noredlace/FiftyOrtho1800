@@ -1,0 +1,4340 @@
+
+(PCB "fifty ortho"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version 4.0.7)
+    (generated_by_freeroute)
+  )
+  (resolution um 10)
+  (structure
+    (boundary
+      (rect pcb 9275.8 -114987.0 285999.0 -30707.0)
+    )
+    (boundary
+      (rect signal 9375.8 -114887.0 285899.0 -30807.0)
+    )
+    (snap_angle 
+      fortyfive_degree
+    )
+    (via "Via[0-1]_600:400_um")
+    (control
+      (via_at_smd off)
+    )
+    (rule
+      (width 250.0)
+      (clear 200.2)
+      (clear 125.0 (type smd_to_turn_gap))
+      (clear 50.0 (type smd_smd))
+    )
+    (layer F.Cu
+      (type signal)
+    )
+    (layer B.Cu
+      (type signal)
+    )
+    (autoroute_settings
+      (fanout off)
+      (autoroute on)
+      (postroute on)
+      (vias on)
+      (via_costs 50)
+      (plane_via_costs 5)
+      (start_ripup_costs 100)
+      (start_pass_no 1)
+      (layer_rule F.Cu
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 4.3)
+      )
+      (layer_rule B.Cu
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 1.3)
+      )
+    )
+  )
+  (placement
+    (component "keyboard_parts:D_SOD123_axial"
+      (place 
+        D1 19050.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D2 19050.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D3 19050.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D4 19050.0 -89296.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D5 38100.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D6 38100.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D7 38100.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D8 38100.0 -89296.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D9 67270.3 -40481.2 back 90
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D10 67270.3 -59531.2 back 270
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D11 57150.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D12 57150.0 -89296.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D13 76200.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D14 76200.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D15 76200.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D16 85725.0 -89296.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D17 95250.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D18 95250.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D19 95250.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D20 114300.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D21 114300.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D22 114300.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D23 123825.0 -89296.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D24 133350.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D25 133350.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D26 133350.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D27 152400.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D28 152400.0 -51792.2 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D29 152400.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D30 161925.0 -89296.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D31 171450.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D32 171450.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D33 171450.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D34 190500.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D35 190500.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D36 190500.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D37 190500.0 -89296.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D38 209550.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D39 209550.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D40 209550.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D41 209550.0 -89296.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D42 228600.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D43 228600.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D44 228600.0 -86915.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D45 233362.0 -94059.4 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D46 257175.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D47 257175.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D48 252412.0 -91678.1 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D49 252412.0 -94059.4 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D50 276225.0 -48815.6 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D51 276225.0 -51196.9 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+      (place 
+        D52 271462.0 -94059.4 back 180
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@2 (clearance_class "kicad_default"))
+        (pin 2@2 (clearance_class "kicad_default"))
+      )
+    )
+    (component "keyboard_parts:HOLE_M2.6"
+      (place 
+        H1 28575.0 -50006.2 front 0
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+      )
+      (place 
+        H2 266700.0 -50006.2 front 0
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+      )
+      (place 
+        H3 200025.0 -88106.2 front 0
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+      )
+      (place 
+        H4 28575.0 -88106.2 front 0
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+      )
+      (place 
+        H5 123825.0 -69056.2 front 0
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+      )
+      (place 
+        H6 200025.0 -50006.2 front 0
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+      )
+    )
+    (component "keebs:Mx_Alps_100"
+      (place 
+        K"1 228600.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        K/1 209550.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        K:1 209550.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        K<1 171450.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        K>1 190500.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KA1 38100.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KB1 114300.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KBack1 228600.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KBLSq1 257175.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KBRSq1 276225.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KC1 76200.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KCtrl1 19050.0 -97631.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KD1 76200.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KDown1 252412.0 -102394.0 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KE1 76200.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KEsc1 19050.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KF1 95250.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KFn1 209550.0 -97631.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KG1 114300.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KH1 133350.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KI1 171450.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KJ1 152400.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KK1 171450.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KL1 190500.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KLAlt1 57150.0 -97631.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KLeft1 233362.0 -102394.0 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KLShift1 19050.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KM1 152400.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KN1 133350.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KO1 190500.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KP1 209550.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KQ1 38100.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KR1 95250.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KRAlt1 190500.0 -97631.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KRight1 271462.0 -102394.0 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KRShift1 228600.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KS1 57150.0 -59531.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KT1 114300.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KTab1 19050.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KTLSq1 257175.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KTRSq1 276225.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KU1 152400.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KUp1 252412.0 -83343.8 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KV1 95250.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KW1 57150.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KWin1 38100.0 -97631.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KX1 57150.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KY1 133350.0 -40481.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+      (place 
+        KZ1 38100.0 -78581.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+      )
+    )
+    (component "Buttons_Switches_SMD:SW_SPST_TL3342"
+      (place 
+        SW1 242888.0 -54768.8 back 180
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+      )
+    )
+    (component "keebs:Pro_Micro"
+      (place 
+        U1 57150.0 -48815.6 front 270
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class "kicad_default"))
+        (pin 6 (clearance_class "kicad_default"))
+        (pin 7 (clearance_class "kicad_default"))
+        (pin 8 (clearance_class "kicad_default"))
+        (pin 9 (clearance_class "kicad_default"))
+        (pin 10 (clearance_class "kicad_default"))
+        (pin 11 (clearance_class "kicad_default"))
+        (pin 12 (clearance_class "kicad_default"))
+        (pin 24 (clearance_class "kicad_default"))
+        (pin 23 (clearance_class "kicad_default"))
+        (pin 22 (clearance_class "kicad_default"))
+        (pin 21 (clearance_class "kicad_default"))
+        (pin 20 (clearance_class "kicad_default"))
+        (pin 19 (clearance_class "kicad_default"))
+        (pin 18 (clearance_class "kicad_default"))
+        (pin 17 (clearance_class "kicad_default"))
+        (pin 16 (clearance_class "kicad_default"))
+        (pin 15 (clearance_class "kicad_default"))
+        (pin 14 (clearance_class "kicad_default"))
+        (pin 13 (clearance_class "kicad_default"))
+      )
+    )
+    (component "Connectors:Pin_d0.9mm_L10.0mm_W2.4mm_FlatFork"
+      (place 
+        J1 242888.0 -38100.0 back 180
+        (pin 1 (clearance_class "kicad_default"))
+      )
+      (place 
+        J2 242888.0 -42862.5 back 180
+        (pin 1 (clearance_class "kicad_default"))
+      )
+      (place 
+        J3 242888.0 -47625.0 back 180
+        (pin 1 (clearance_class "kicad_default"))
+      )
+    )
+    (component "keebs:Mx_Alps_200"
+      (place 
+        KLSpace1 85725.0 -97631.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+        (keepout "keepout_7" (clearance_class default))
+        (keepout "keepout_8" (clearance_class default))
+        (keepout "keepout_9" (clearance_class default))
+        (keepout "keepout_10" (clearance_class default))
+        (keepout "keepout_11" (clearance_class default))
+        (keepout "keepout_12" (clearance_class default))
+        (keepout "keepout_13" (clearance_class default))
+        (keepout "keepout_14" (clearance_class default))
+      )
+      (place 
+        KMSpace1 123825.0 -97631.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+        (keepout "keepout_7" (clearance_class default))
+        (keepout "keepout_8" (clearance_class default))
+        (keepout "keepout_9" (clearance_class default))
+        (keepout "keepout_10" (clearance_class default))
+        (keepout "keepout_11" (clearance_class default))
+        (keepout "keepout_12" (clearance_class default))
+        (keepout "keepout_13" (clearance_class default))
+        (keepout "keepout_14" (clearance_class default))
+      )
+      (place 
+        KRSpace1 161925.0 -97631.2 front 0
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+        (keepout "keepout_3" (clearance_class default))
+        (keepout "keepout_4" (clearance_class default))
+        (keepout "keepout_5" (clearance_class default))
+        (keepout "keepout_6" (clearance_class default))
+        (keepout "keepout_7" (clearance_class default))
+        (keepout "keepout_8" (clearance_class default))
+        (keepout "keepout_9" (clearance_class default))
+        (keepout "keepout_10" (clearance_class default))
+        (keepout "keepout_11" (clearance_class default))
+        (keepout "keepout_12" (clearance_class default))
+        (keepout "keepout_13" (clearance_class default))
+        (keepout "keepout_14" (clearance_class default))
+      )
+    )
+  )
+  (library
+    (image "keyboard_parts:D_SOD123_axial"
+      (side front)
+      (pin "Rect[T]Pad_1200x1200_um" 2 1575.0 0.0)
+      (pin "Rect[T]Pad_1200x1200_um" 1 -1575.0 0.0)
+      (pin "Rect[A]Pad_1600x1600_um" 1@1 -3900.0 0.0)
+      (pin "Round[A]Pad_1600_um" 2@1 3900.0 0.0)
+      (pin "Rect[T]Pad_2500x500_um" 1@2 -2700.0 0.0)
+      (pin "Rect[T]Pad_2500x500_um" 2@2 2700.0 0.0)
+      (outline
+        (polygon signal 0
+          -2316.4 -1300.0
+          -2233.6 -1300.0
+          -2175.0 -1241.4
+          -2175.0 1241.4
+          -2233.6 1300.0
+          -2316.4 1300.0
+          -2375.0 1241.4
+          -2375.0 -1241.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2491.4 -1300.0
+          -2408.6 -1300.0
+          -2350.0 -1241.4
+          -2350.0 1241.4
+          -2408.6 1300.0
+          -2491.4 1300.0
+          -2550.0 1241.4
+          -2550.0 -1241.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2666.4 -1300.0
+          -2583.6 -1300.0
+          -2525.0 -1241.4
+          -2525.0 1241.4
+          -2583.6 1300.0
+          -2666.4 1300.0
+          -2725.0 1241.4
+          -2725.0 -1241.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3066.4 -1300.0
+          -2983.6 -1300.0
+          -2925.0 -1241.4
+          -2925.0 1241.4
+          -2983.6 1300.0
+          -3066.4 1300.0
+          -3125.0 1241.4
+          -3125.0 -1241.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2841.4 -1300.0
+          -2758.6 -1300.0
+          -2700.0 -1241.4
+          -2700.0 1241.4
+          -2758.6 1300.0
+          -2841.4 1300.0
+          -2900.0 1241.4
+          -2900.0 -1241.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2966.4 -1300.0
+          -2883.6 -1300.0
+          -2825.0 -1241.4
+          -2825.0 1241.4
+          -2883.6 1300.0
+          -2966.4 1300.0
+          -3025.0 1241.4
+          -3025.0 -1241.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3041.4 1100.0
+          2841.4 1100.0
+          2900.0 1158.6
+          2900.0 1241.4
+          2841.4 1300.0
+          -3041.4 1300.0
+          -3100.0 1241.4
+          -3100.0 1158.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          2758.6 -1300.0
+          2841.4 -1300.0
+          2900.0 -1241.4
+          2900.0 1241.4
+          2841.4 1300.0
+          2758.6 1300.0
+          2700.0 1241.4
+          2700.0 -1241.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3041.4 -1300.0
+          2841.4 -1300.0
+          2900.0 -1241.4
+          2900.0 -1158.6
+          2841.4 -1100.0
+          -3041.4 -1100.0
+          -3100.0 -1158.6
+          -3100.0 -1241.4
+        )
+      )
+    )
+    (image "keyboard_parts:HOLE_M2.6"
+      (side front)
+      (keepout
+        (circle F.Cu 2800.0 0.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 2800.0 0.0 0.0)
+      )
+    )
+    (image "keebs:Mx_Alps_100"
+      (side front)
+      (pin "Oval[A]Pad_2500x4170_um" 1 -3405.0 3270.0(rotate 331))
+      (pin "Oval[A]Pad_2500x3080_um" 2 2520.0 4790.0(rotate 356))
+      (keepout
+        (circle F.Cu 3987.8 0.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 3987.8 0.0 0.0)
+      )
+      (keepout
+        (circle F.Cu 1701.8 -5080.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 1701.8 -5080.0 0.0)
+      )
+      (keepout
+        (circle F.Cu 1701.8 5080.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 1701.8 5080.0 0.0)
+      )
+      (outline
+        (polygon signal 0
+          -6381.6 6273.8
+          6381.6 6273.8
+          6426.2 6318.4
+          6426.2 6381.6
+          6381.6 6426.2
+          -6381.6 6426.2
+          -6426.2 6381.6
+          -6426.2 6318.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          6318.4 -6426.2
+          6381.6 -6426.2
+          6426.2 -6381.6
+          6426.2 6381.6
+          6381.6 6426.2
+          6318.4 6426.2
+          6273.8 6381.6
+          6273.8 -6381.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6381.6 -6426.2
+          6381.6 -6426.2
+          6426.2 -6381.6
+          6426.2 -6318.4
+          6381.6 -6273.8
+          -6381.6 -6273.8
+          -6426.2 -6318.4
+          -6426.2 -6381.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6381.6 -6426.2
+          -6318.4 -6426.2
+          -6273.8 -6381.6
+          -6273.8 6381.6
+          -6318.4 6426.2
+          -6381.6 6426.2
+          -6426.2 6381.6
+          -6426.2 -6381.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -9429.6 9321.8
+          9429.6 9321.8
+          9474.2 9366.4
+          9474.2 9429.6
+          9429.6 9474.2
+          -9429.6 9474.2
+          -9474.2 9429.6
+          -9474.2 9366.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          9366.4 -9474.2
+          9429.6 -9474.2
+          9474.2 -9429.6
+          9474.2 9429.6
+          9429.6 9474.2
+          9366.4 9474.2
+          9321.8 9429.6
+          9321.8 -9429.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -9429.6 -9474.2
+          9429.6 -9474.2
+          9474.2 -9429.6
+          9474.2 -9366.4
+          9429.6 -9321.8
+          -9429.6 -9321.8
+          -9474.2 -9366.4
+          -9474.2 -9429.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -9429.6 -9474.2
+          -9366.4 -9474.2
+          -9321.8 -9429.6
+          -9321.8 9429.6
+          -9366.4 9474.2
+          -9429.6 9474.2
+          -9474.2 9429.6
+          -9474.2 -9429.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6428.9 6159.5
+          -4493.1 6159.5
+          -4381.5 6271.1
+          -4381.5 6428.9
+          -4493.1 6540.5
+          -6428.9 6540.5
+          -6540.5 6428.9
+          -6540.5 6271.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          4493.1 6159.5
+          6428.9 6159.5
+          6540.5 6271.1
+          6540.5 6428.9
+          6428.9 6540.5
+          4493.1 6540.5
+          4381.5 6428.9
+          4381.5 6271.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          6271.1 4381.5
+          6428.9 4381.5
+          6540.5 4493.1
+          6540.5 6428.9
+          6428.9 6540.5
+          6271.1 6540.5
+          6159.5 6428.9
+          6159.5 4493.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          6271.1 -6540.5
+          6428.9 -6540.5
+          6540.5 -6428.9
+          6540.5 -4493.1
+          6428.9 -4381.5
+          6271.1 -4381.5
+          6159.5 -4493.1
+          6159.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          4493.1 -6540.5
+          6428.9 -6540.5
+          6540.5 -6428.9
+          6540.5 -6271.1
+          6428.9 -6159.5
+          4493.1 -6159.5
+          4381.5 -6271.1
+          4381.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6428.9 -6540.5
+          -4493.1 -6540.5
+          -4381.5 -6428.9
+          -4381.5 -6271.1
+          -4493.1 -6159.5
+          -6428.9 -6159.5
+          -6540.5 -6271.1
+          -6540.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6428.9 -6540.5
+          -6271.1 -6540.5
+          -6159.5 -6428.9
+          -6159.5 -4493.1
+          -6271.1 -4381.5
+          -6428.9 -4381.5
+          -6540.5 -4493.1
+          -6540.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6428.9 4381.5
+          -6271.1 4381.5
+          -6159.5 4493.1
+          -6159.5 6428.9
+          -6271.1 6540.5
+          -6428.9 6540.5
+          -6540.5 6428.9
+          -6540.5 4493.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7016.6 6908.8
+          7016.6 6908.8
+          7061.2 6953.4
+          7061.2 7016.6
+          7016.6 7061.2
+          -7016.6 7061.2
+          -7061.2 7016.6
+          -7061.2 6953.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          6953.4 -7061.2
+          7016.6 -7061.2
+          7061.2 -7016.6
+          7061.2 7016.6
+          7016.6 7061.2
+          6953.4 7061.2
+          6908.8 7016.6
+          6908.8 -7016.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7016.6 -7061.2
+          7016.6 -7061.2
+          7061.2 -7016.6
+          7061.2 -6953.4
+          7016.6 -6908.8
+          -7016.6 -6908.8
+          -7061.2 -6953.4
+          -7061.2 -7016.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7016.6 -7061.2
+          -6953.4 -7061.2
+          -6908.8 -7016.6
+          -6908.8 7016.6
+          -6953.4 7061.2
+          -7016.6 7061.2
+          -7061.2 7016.6
+          -7061.2 -7016.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7812.1 -6550.0
+          -7687.9 -6550.0
+          -7600.0 -6462.1
+          -7600.0 6462.1
+          -7687.9 6550.0
+          -7812.1 6550.0
+          -7900.0 6462.1
+          -7900.0 -6462.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7812.1 -6550.0
+          7812.1 -6550.0
+          7900.0 -6462.1
+          7900.0 -6337.9
+          7812.1 -6250.0
+          -7812.1 -6250.0
+          -7900.0 -6337.9
+          -7900.0 -6462.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          7687.9 -6550.0
+          7812.1 -6550.0
+          7900.0 -6462.1
+          7900.0 6462.1
+          7812.1 6550.0
+          7687.9 6550.0
+          7600.0 6462.1
+          7600.0 -6462.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7812.1 6250.0
+          7812.1 6250.0
+          7900.0 6337.9
+          7900.0 6462.1
+          7812.1 6550.0
+          -7812.1 6550.0
+          -7900.0 6462.1
+          -7900.0 6337.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7682.1 7470.0
+          7682.1 7470.0
+          7770.0 7557.9
+          7770.0 7682.1
+          7682.1 7770.0
+          -7682.1 7770.0
+          -7770.0 7682.1
+          -7770.0 7557.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          7557.9 -7770.0
+          7682.1 -7770.0
+          7770.0 -7682.1
+          7770.0 7682.1
+          7682.1 7770.0
+          7557.9 7770.0
+          7470.0 7682.1
+          7470.0 -7682.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7682.1 -7770.0
+          7682.1 -7770.0
+          7770.0 -7682.1
+          7770.0 -7557.9
+          7682.1 -7470.0
+          -7682.1 -7470.0
+          -7770.0 -7557.9
+          -7770.0 -7682.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7682.1 -7770.0
+          -7557.9 -7770.0
+          -7470.0 -7682.1
+          -7470.0 7682.1
+          -7557.9 7770.0
+          -7682.1 7770.0
+          -7770.0 7682.1
+          -7770.0 -7682.1
+        )
+      )
+    )
+    (image "Buttons_Switches_SMD:SW_SPST_TL3342"
+      (side front)
+      (pin "Rect[T]Pad_1700x1000_um" 1 -3150.0 1900.0)
+      (pin "Rect[T]Pad_1700x1000_um" 1@1 3150.0 1900.0)
+      (pin "Rect[T]Pad_1700x1000_um" 2 -3150.0 -1900.0)
+      (pin "Rect[T]Pad_1700x1000_um" 2@1 3150.0 -1900.0)
+      (outline
+        (polygon signal 0
+          3179.3 -2150.0
+          3220.7 -2150.0
+          3250.0 -2120.7
+          3250.0 -1579.3
+          3220.7 -1550.0
+          3179.3 -1550.0
+          3150.0 -1579.3
+          3150.0 -2120.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          3179.3 1550.0
+          3220.7 1550.0
+          3250.0 1579.3
+          3250.0 2120.7
+          3220.7 2150.0
+          3179.3 2150.0
+          3150.0 2120.7
+          3150.0 1579.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3220.7 -2150.0
+          -3179.3 -2150.0
+          -3150.0 -2120.7
+          -3150.0 -1579.3
+          -3179.3 -1550.0
+          -3220.7 -1550.0
+          -3250.0 -1579.3
+          -3250.0 -2120.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3220.7 1550.0
+          -3179.3 1550.0
+          -3150.0 1579.3
+          -3150.0 2120.7
+          -3179.3 2150.0
+          -3220.7 2150.0
+          -3250.0 2120.7
+          -3250.0 1579.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          2679.3 1550.0
+          2720.7 1550.0
+          2750.0 1579.3
+          2750.0 2120.7
+          2720.7 2150.0
+          2679.3 2150.0
+          2650.0 2120.7
+          2650.0 1579.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1679.3 2050.0
+          3220.7 2050.0
+          3250.0 2079.3
+          3250.0 2120.7
+          3220.7 2150.0
+          1679.3 2150.0
+          1650.0 2120.7
+          1650.0 2079.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          2179.3 1550.0
+          3220.7 1550.0
+          3250.0 1579.3
+          3250.0 1620.7
+          3220.7 1650.0
+          2179.3 1650.0
+          2150.0 1620.7
+          2150.0 1579.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2720.7 1550.0
+          -2679.3 1550.0
+          -2650.0 1579.3
+          -2650.0 2120.7
+          -2679.3 2150.0
+          -2720.7 2150.0
+          -2750.0 2120.7
+          -2750.0 1579.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3220.7 2050.0
+          -1679.3 2050.0
+          -1650.0 2079.3
+          -1650.0 2120.7
+          -1679.3 2150.0
+          -3220.7 2150.0
+          -3250.0 2120.7
+          -3250.0 2079.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3220.7 1550.0
+          -2179.3 1550.0
+          -2150.0 1579.3
+          -2150.0 1620.7
+          -2179.3 1650.0
+          -3220.7 1650.0
+          -3250.0 1620.7
+          -3250.0 1579.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2720.7 -2150.0
+          -2679.3 -2150.0
+          -2650.0 -2120.7
+          -2650.0 -1579.3
+          -2679.3 -1550.0
+          -2720.7 -1550.0
+          -2750.0 -1579.3
+          -2750.0 -2120.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3220.7 -1650.0
+          -2179.3 -1650.0
+          -2150.0 -1620.7
+          -2150.0 -1579.3
+          -2179.3 -1550.0
+          -3220.7 -1550.0
+          -3250.0 -1579.3
+          -3250.0 -1620.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3220.7 -2150.0
+          -1679.3 -2150.0
+          -1650.0 -2120.7
+          -1650.0 -2079.3
+          -1679.3 -2050.0
+          -3220.7 -2050.0
+          -3250.0 -2079.3
+          -3250.0 -2120.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1679.3 -2150.0
+          3220.7 -2150.0
+          3250.0 -2120.7
+          3250.0 -2079.3
+          3220.7 -2050.0
+          1679.3 -2050.0
+          1650.0 -2079.3
+          1650.0 -2120.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2679.3 -2150.0
+          2720.7 -2150.0
+          2750.0 -2120.7
+          2750.0 -1579.3
+          2720.7 -1550.0
+          2679.3 -1550.0
+          2650.0 -1579.3
+          2650.0 -2120.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2179.3 -1650.0
+          3220.7 -1650.0
+          3250.0 -1620.7
+          3250.0 -1579.3
+          3220.7 -1550.0
+          2179.3 -1550.0
+          2150.0 -1579.3
+          2150.0 -1620.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1274.9 -2810.0
+          -1225.1 -2810.0
+          -1190.0 -2774.9
+          -1190.0 -2725.1
+          -1675.1 -2240.0
+          -1724.9 -2240.0
+          -1760.0 -2275.1
+          -1760.0 -2324.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1225.1 -2810.0
+          1274.9 -2810.0
+          1760.0 -2324.9
+          1760.0 -2275.1
+          1724.9 -2240.0
+          1675.1 -2240.0
+          1190.0 -2725.1
+          1190.0 -2774.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1675.1 2240.0
+          1724.9 2240.0
+          1760.0 2275.1
+          1760.0 2324.9
+          1274.9 2810.0
+          1225.1 2810.0
+          1190.0 2774.9
+          1190.0 2725.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1724.9 2240.0
+          -1675.1 2240.0
+          -1190.0 2725.1
+          -1190.0 2774.9
+          -1225.1 2810.0
+          -1274.9 2810.0
+          -1760.0 2324.9
+          -1760.0 2275.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2020.7 950.0
+          -1979.3 950.0
+          -950.0 1979.3
+          -950.0 2020.7
+          -979.3 2050.0
+          -1020.7 2050.0
+          -2050.0 1020.7
+          -2050.0 979.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1020.7 1950.0
+          1020.7 1950.0
+          1050.0 1979.3
+          1050.0 2020.7
+          1020.7 2050.0
+          -1020.7 2050.0
+          -1050.0 2020.7
+          -1050.0 1979.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1979.3 950.0
+          2020.7 950.0
+          2050.0 979.3
+          2050.0 1020.7
+          1020.7 2050.0
+          979.3 2050.0
+          950.0 2020.7
+          950.0 1979.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1979.3 -1050.0
+          2020.7 -1050.0
+          2050.0 -1020.7
+          2050.0 1020.7
+          2020.7 1050.0
+          1979.3 1050.0
+          1950.0 1020.7
+          1950.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          979.3 -2050.0
+          1020.7 -2050.0
+          2050.0 -1020.7
+          2050.0 -979.3
+          2020.7 -950.0
+          1979.3 -950.0
+          950.0 -1979.3
+          950.0 -2020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1020.7 -2050.0
+          1020.7 -2050.0
+          1050.0 -2020.7
+          1050.0 -1979.3
+          1020.7 -1950.0
+          -1020.7 -1950.0
+          -1050.0 -1979.3
+          -1050.0 -2020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1020.7 -2050.0
+          -979.3 -2050.0
+          -950.0 -2020.7
+          -950.0 -1979.3
+          -1979.3 -950.0
+          -2020.7 -950.0
+          -2050.0 -979.3
+          -2050.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2020.7 -1050.0
+          -1979.3 -1050.0
+          -1950.0 -1020.7
+          -1950.0 1020.7
+          -1979.3 1050.0
+          -2020.7 1050.0
+          -2050.0 1020.7
+          -2050.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2725.1 -1060.0
+          2774.9 -1060.0
+          2810.0 -1024.9
+          2810.0 1024.9
+          2774.9 1060.0
+          2725.1 1060.0
+          2690.0 1024.9
+          2690.0 -1024.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1274.9 -2810.0
+          1274.9 -2810.0
+          1310.0 -2774.9
+          1310.0 -2725.1
+          1274.9 -2690.0
+          -1274.9 -2690.0
+          -1310.0 -2725.1
+          -1310.0 -2774.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2774.9 -1060.0
+          -2725.1 -1060.0
+          -2690.0 -1024.9
+          -2690.0 1024.9
+          -2725.1 1060.0
+          -2774.9 1060.0
+          -2810.0 1024.9
+          -2810.0 -1024.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1274.9 2690.0
+          1274.9 2690.0
+          1310.0 2725.1
+          1310.0 2774.9
+          1274.9 2810.0
+          -1274.9 2810.0
+          -1310.0 2774.9
+          -1310.0 2725.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2620.7 -1250.0
+          -2579.3 -1250.0
+          -2550.0 -1220.7
+          -2550.0 1220.7
+          -2579.3 1250.0
+          -2620.7 1250.0
+          -2650.0 1220.7
+          -2650.0 -1220.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1220.7 -2650.0
+          -1179.3 -2650.0
+          -1150.0 -2620.7
+          -1150.0 -2579.3
+          -2579.3 -1150.0
+          -2620.7 -1150.0
+          -2650.0 -1179.3
+          -2650.0 -1220.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1220.7 -2650.0
+          1220.7 -2650.0
+          1250.0 -2620.7
+          1250.0 -2579.3
+          1220.7 -2550.0
+          -1220.7 -2550.0
+          -1250.0 -2579.3
+          -1250.0 -2620.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1179.3 -2650.0
+          1220.7 -2650.0
+          2650.0 -1220.7
+          2650.0 -1179.3
+          2620.7 -1150.0
+          2579.3 -1150.0
+          1150.0 -2579.3
+          1150.0 -2620.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2579.3 -1250.0
+          2620.7 -1250.0
+          2650.0 -1220.7
+          2650.0 1220.7
+          2620.7 1250.0
+          2579.3 1250.0
+          2550.0 1220.7
+          2550.0 -1220.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2579.3 1150.0
+          2620.7 1150.0
+          2650.0 1179.3
+          2650.0 1220.7
+          1220.7 2650.0
+          1179.3 2650.0
+          1150.0 2620.7
+          1150.0 2579.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1220.7 2550.0
+          1220.7 2550.0
+          1250.0 2579.3
+          1250.0 2620.7
+          1220.7 2650.0
+          -1220.7 2650.0
+          -1250.0 2620.7
+          -1250.0 2579.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2620.7 1150.0
+          -2579.3 1150.0
+          -1150.0 2579.3
+          -1150.0 2620.7
+          -1179.3 2650.0
+          -1220.7 2650.0
+          -2650.0 1220.7
+          -2650.0 1179.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -4260.4 2975.0
+          4260.4 2975.0
+          4275.0 2989.6
+          4275.0 3010.4
+          4260.4 3025.0
+          -4260.4 3025.0
+          -4275.0 3010.4
+          -4275.0 2989.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          4239.6 -3025.0
+          4260.4 -3025.0
+          4275.0 -3010.4
+          4275.0 3010.4
+          4260.4 3025.0
+          4239.6 3025.0
+          4225.0 3010.4
+          4225.0 -3010.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -4260.4 -3025.0
+          4260.4 -3025.0
+          4275.0 -3010.4
+          4275.0 -2989.6
+          4260.4 -2975.0
+          -4260.4 -2975.0
+          -4275.0 -2989.6
+          -4275.0 -3010.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -4260.4 -3025.0
+          -4239.6 -3025.0
+          -4225.0 -3010.4
+          -4225.0 3010.4
+          -4239.6 3025.0
+          -4260.4 3025.0
+          -4275.0 3010.4
+          -4275.0 -3010.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3.791411042944785 -1050.0
+          3.791411042944785 -1050.0
+          324.6502567415719 -999.2233088845862
+          617.5767373811266 -849.9232626188734
+          849.9232626188734 -617.5767373811266
+          999.2233088845862 -324.6502567415719
+          1050.0 -3.791411042944785
+          1050.0 3.791411042944785
+          999.2233088845862 324.6502567415719
+          849.9232626188734 617.5767373811266
+          617.5767373811266 849.9232626188734
+          324.6502567415719 999.2233088845862
+          3.791411042944785 1050.0
+          -3.791411042944785 1050.0
+          -324.6502567415719 999.2233088845862
+          -617.5767373811266 849.9232626188734
+          -849.9232626188734 617.5767373811266
+          -999.2233088845862 324.6502567415719
+          -1050.0 3.791411042944785
+          -1050.0 -3.791411042944785
+          -999.2233088845862 -324.6502567415719
+          -849.9232626188734 -617.5767373811266
+          -617.5767373811266 -849.9232626188734
+          -324.6502567415719 -999.2233088845862
+        )
+      )
+    )
+    (image "keebs:Pro_Micro"
+      (side front)
+      (pin "Rect[A]Pad_1752.6x1752.6_um" 1 -13970.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 2 -11430.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 3 -8890.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 4 -6350.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 5 -3810.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 6 -1270.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 7 1270.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 8 3810.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 9 6350.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 10 8890.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 11 11430.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 12 13970.0 -7620.0)
+      (pin "Round[A]Pad_1752.6_um" 24 13970.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 23 11430.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 22 8890.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 21 6350.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 20 3810.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 19 1270.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 18 -1270.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 17 -3810.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 16 -6350.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 15 -8890.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 14 -11430.0 7620.0)
+      (pin "Round[A]Pad_1752.6_um" 13 -13970.0 7620.0)
+      (outline
+        (polygon signal 0
+          -15318.9 -9080.5
+          -15161.1 -9080.5
+          -15049.5 -8968.9
+          -15049.5 8968.9
+          -15161.1 9080.5
+          -15318.9 9080.5
+          -15430.5 8968.9
+          -15430.5 -8968.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15318.9 -9080.5
+          15318.9 -9080.5
+          15430.5 -8968.9
+          15430.5 -8811.1
+          15318.9 -8699.5
+          -15318.9 -8699.5
+          -15430.5 -8811.1
+          -15430.5 -8968.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          15161.1 -9080.5
+          15318.9 -9080.5
+          15430.5 -8968.9
+          15430.5 8968.9
+          15318.9 9080.5
+          15161.1 9080.5
+          15049.5 8968.9
+          15049.5 -8968.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15318.9 8699.5
+          15318.9 8699.5
+          15430.5 8811.1
+          15430.5 8968.9
+          15318.9 9080.5
+          -15318.9 9080.5
+          -15430.5 8968.9
+          -15430.5 8811.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15318.9 -6540.5
+          -12621.1 -6540.5
+          -12509.5 -6428.9
+          -12509.5 -6271.1
+          -12621.1 -6159.5
+          -15318.9 -6159.5
+          -15430.5 -6271.1
+          -15430.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -12778.9 -9080.5
+          -12621.1 -9080.5
+          -12509.5 -8968.9
+          -12509.5 -6271.1
+          -12621.1 -6159.5
+          -12778.9 -6159.5
+          -12890.5 -6271.1
+          -12890.5 -8968.9
+        )
+      )
+    )
+    (image "Connectors:Pin_d0.9mm_L10.0mm_W2.4mm_FlatFork"
+      (side front)
+      (pin "Round[A]Pad_1800_um" 1 0.0 0.0)
+      (outline
+        (polygon signal 0
+          -1324.9 -660.0
+          -1275.1 -660.0
+          -1240.0 -624.9
+          -1240.0 1124.9
+          -1275.1 1160.0
+          -1324.9 1160.0
+          -1360.0 1124.9
+          -1360.0 -624.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1324.9 -1160.0
+          -1275.1 -1160.0
+          -1240.0 -1124.9
+          -1240.0 -575.1
+          -1275.1 -540.0
+          -1324.9 -540.0
+          -1360.0 -575.1
+          -1360.0 -1124.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1324.9 -1160.0
+          1324.9 -1160.0
+          1360.0 -1124.9
+          1360.0 -1075.1
+          1324.9 -1040.0
+          -1324.9 -1040.0
+          -1360.0 -1075.1
+          -1360.0 -1124.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1275.1 -1160.0
+          1324.9 -1160.0
+          1360.0 -1124.9
+          1360.0 1124.9
+          1324.9 1160.0
+          1275.1 1160.0
+          1240.0 1124.9
+          1240.0 -1124.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1324.9 1040.0
+          1324.9 1040.0
+          1360.0 1075.1
+          1360.0 1124.9
+          1324.9 1160.0
+          -1324.9 1160.0
+          -1360.0 1124.9
+          -1360.0 1075.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1224.9 -310.0
+          -1175.1 -310.0
+          -1140.0 -274.9
+          -1140.0 274.9
+          -1175.1 310.0
+          -1224.9 310.0
+          -1260.0 274.9
+          -1260.0 -274.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1224.9 -310.0
+          1224.9 -310.0
+          1260.0 -274.9
+          1260.0 -225.1
+          1224.9 -190.0
+          -1224.9 -190.0
+          -1260.0 -225.1
+          -1260.0 -274.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1175.1 -310.0
+          1224.9 -310.0
+          1260.0 -274.9
+          1260.0 274.9
+          1224.9 310.0
+          1175.1 310.0
+          1140.0 274.9
+          1140.0 -274.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1224.9 190.0
+          1224.9 190.0
+          1260.0 225.1
+          1260.0 274.9
+          1224.9 310.0
+          -1224.9 310.0
+          -1260.0 274.9
+          -1260.0 225.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1710.4 1375.0
+          1710.4 1375.0
+          1725.0 1389.6
+          1725.0 1410.4
+          1710.4 1425.0
+          -1710.4 1425.0
+          -1725.0 1410.4
+          -1725.0 1389.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1710.4 -1425.0
+          -1689.6 -1425.0
+          -1675.0 -1410.4
+          -1675.0 1410.4
+          -1689.6 1425.0
+          -1710.4 1425.0
+          -1725.0 1410.4
+          -1725.0 -1410.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          1689.6 -1425.0
+          1710.4 -1425.0
+          1725.0 -1410.4
+          1725.0 1410.4
+          1710.4 1425.0
+          1689.6 1425.0
+          1675.0 1410.4
+          1675.0 -1410.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1710.4 -1425.0
+          1710.4 -1425.0
+          1725.0 -1410.4
+          1725.0 -1389.6
+          1710.4 -1375.0
+          -1710.4 -1375.0
+          -1725.0 -1389.6
+          -1725.0 -1410.4
+        )
+      )
+    )
+    (image "keebs:Mx_Alps_200"
+      (side front)
+      (pin "Oval[A]Pad_2500x4170_um" 1 -3405.0 3270.0(rotate 331))
+      (pin "Oval[A]Pad_2500x3080_um" 2 2520.0 4790.0(rotate 356))
+      (keepout
+        (circle F.Cu 3987.8 0.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 3987.8 0.0 0.0)
+      )
+      (keepout
+        (circle F.Cu 1701.8 -5080.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 1701.8 -5080.0 0.0)
+      )
+      (keepout
+        (circle F.Cu 1701.8 5080.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 1701.8 5080.0 0.0)
+      )
+      (keepout
+        (circle F.Cu 3048.0 -11938.0 6985.0)
+      )
+      (keepout
+        (circle B.Cu 3048.0 -11938.0 6985.0)
+      )
+      (keepout
+        (circle F.Cu 3048.0 11938.0 6985.0)
+      )
+      (keepout
+        (circle B.Cu 3048.0 11938.0 6985.0)
+      )
+      (keepout
+        (circle F.Cu 3987.8 -11938.0 -8255.0)
+      )
+      (keepout
+        (circle B.Cu 3987.8 -11938.0 -8255.0)
+      )
+      (keepout
+        (circle F.Cu 3987.8 11938.0 -8255.0)
+      )
+      (keepout
+        (circle B.Cu 3987.8 11938.0 -8255.0)
+      )
+      (outline
+        (polygon signal 0
+          -6381.6 6273.8
+          6381.6 6273.8
+          6426.2 6318.4
+          6426.2 6381.6
+          6381.6 6426.2
+          -6381.6 6426.2
+          -6426.2 6381.6
+          -6426.2 6318.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          6318.4 -6426.2
+          6381.6 -6426.2
+          6426.2 -6381.6
+          6426.2 6381.6
+          6381.6 6426.2
+          6318.4 6426.2
+          6273.8 6381.6
+          6273.8 -6381.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6381.6 -6426.2
+          6381.6 -6426.2
+          6426.2 -6381.6
+          6426.2 -6318.4
+          6381.6 -6273.8
+          -6381.6 -6273.8
+          -6426.2 -6318.4
+          -6426.2 -6381.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6381.6 -6426.2
+          -6318.4 -6426.2
+          -6273.8 -6381.6
+          -6273.8 6381.6
+          -6318.4 6426.2
+          -6381.6 6426.2
+          -6426.2 6381.6
+          -6426.2 -6381.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -18954.6 9321.8
+          18954.6 9321.8
+          18999.2 9366.4
+          18999.2 9429.6
+          18954.6 9474.2
+          -18954.6 9474.2
+          -18999.2 9429.6
+          -18999.2 9366.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          18891.4 -9474.2
+          18954.6 -9474.2
+          18999.2 -9429.6
+          18999.2 9429.6
+          18954.6 9474.2
+          18891.4 9474.2
+          18846.8 9429.6
+          18846.8 -9429.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -18954.6 -9474.2
+          18954.6 -9474.2
+          18999.2 -9429.6
+          18999.2 -9366.4
+          18954.6 -9321.8
+          -18954.6 -9321.8
+          -18999.2 -9366.4
+          -18999.2 -9429.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -18954.6 -9474.2
+          -18891.4 -9474.2
+          -18846.8 -9429.6
+          -18846.8 9429.6
+          -18891.4 9474.2
+          -18954.6 9474.2
+          -18999.2 9429.6
+          -18999.2 -9429.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6428.9 6159.5
+          -4493.1 6159.5
+          -4381.5 6271.1
+          -4381.5 6428.9
+          -4493.1 6540.5
+          -6428.9 6540.5
+          -6540.5 6428.9
+          -6540.5 6271.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          4493.1 6159.5
+          6428.9 6159.5
+          6540.5 6271.1
+          6540.5 6428.9
+          6428.9 6540.5
+          4493.1 6540.5
+          4381.5 6428.9
+          4381.5 6271.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          6271.1 4381.5
+          6428.9 4381.5
+          6540.5 4493.1
+          6540.5 6428.9
+          6428.9 6540.5
+          6271.1 6540.5
+          6159.5 6428.9
+          6159.5 4493.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          6271.1 -6540.5
+          6428.9 -6540.5
+          6540.5 -6428.9
+          6540.5 -4493.1
+          6428.9 -4381.5
+          6271.1 -4381.5
+          6159.5 -4493.1
+          6159.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          4493.1 -6540.5
+          6428.9 -6540.5
+          6540.5 -6428.9
+          6540.5 -6271.1
+          6428.9 -6159.5
+          4493.1 -6159.5
+          4381.5 -6271.1
+          4381.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6428.9 -6540.5
+          -4493.1 -6540.5
+          -4381.5 -6428.9
+          -4381.5 -6271.1
+          -4493.1 -6159.5
+          -6428.9 -6159.5
+          -6540.5 -6271.1
+          -6540.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6428.9 -6540.5
+          -6271.1 -6540.5
+          -6159.5 -6428.9
+          -6159.5 -4493.1
+          -6271.1 -4381.5
+          -6428.9 -4381.5
+          -6540.5 -4493.1
+          -6540.5 -6428.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -6428.9 4381.5
+          -6271.1 4381.5
+          -6159.5 4493.1
+          -6159.5 6428.9
+          -6271.1 6540.5
+          -6428.9 6540.5
+          -6540.5 6428.9
+          -6540.5 4493.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7016.6 6908.8
+          7016.6 6908.8
+          7061.2 6953.4
+          7061.2 7016.6
+          7016.6 7061.2
+          -7016.6 7061.2
+          -7061.2 7016.6
+          -7061.2 6953.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          6953.4 4800.6
+          7016.6 4800.6
+          7061.2 4845.2
+          7061.2 7016.6
+          7016.6 7061.2
+          6953.4 7061.2
+          6908.8 7016.6
+          6908.8 4845.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          6953.4 4800.6
+          8642.2 4800.6
+          8686.8 4845.2
+          8686.8 4908.4
+          8642.2 4953.0
+          6953.4 4953.0
+          6908.8 4908.4
+          6908.8 4845.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          8579.0 4800.6
+          8642.2 4800.6
+          8686.8 4845.2
+          8686.8 5721.2
+          8642.2 5765.8
+          8579.0 5765.8
+          8534.4 5721.2
+          8534.4 4845.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          8579.0 5613.4
+          15297.0 5613.4
+          15341.6 5658.0
+          15341.6 5721.2
+          15297.0 5765.8
+          8579.0 5765.8
+          8534.4 5721.2
+          8534.4 5658.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          15233.8 2209.8
+          15297.0 2209.8
+          15341.6 2254.4
+          15341.6 5721.2
+          15297.0 5765.8
+          15233.8 5765.8
+          15189.2 5721.2
+          15189.2 2254.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          15233.8 2209.8
+          16160.6 2209.8
+          16205.2 2254.4
+          16205.2 2317.6
+          16160.6 2362.2
+          15233.8 2362.2
+          15189.2 2317.6
+          15189.2 2254.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          16097.4 -584.2
+          16160.6 -584.2
+          16205.2 -539.6
+          16205.2 2317.6
+          16160.6 2362.2
+          16097.4 2362.2
+          16052.8 2317.6
+          16052.8 -539.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          15233.8 -584.2
+          16160.6 -584.2
+          16205.2 -539.6
+          16205.2 -476.4
+          16160.6 -431.8
+          15233.8 -431.8
+          15189.2 -476.4
+          15189.2 -539.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          15233.8 -6680.2
+          15297.0 -6680.2
+          15341.6 -6635.6
+          15341.6 -476.4
+          15297.0 -431.8
+          15233.8 -431.8
+          15189.2 -476.4
+          15189.2 -6635.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          14192.4 -6680.2
+          15297.0 -6680.2
+          15341.6 -6635.6
+          15341.6 -6572.4
+          15297.0 -6527.8
+          14192.4 -6527.8
+          14147.8 -6572.4
+          14147.8 -6635.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          14192.4 -7848.6
+          14255.6 -7848.6
+          14300.2 -7804.0
+          14300.2 -6572.4
+          14255.6 -6527.8
+          14192.4 -6527.8
+          14147.8 -6572.4
+          14147.8 -7804.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          9620.4 -7848.6
+          14255.6 -7848.6
+          14300.2 -7804.0
+          14300.2 -7740.8
+          14255.6 -7696.2
+          9620.4 -7696.2
+          9575.8 -7740.8
+          9575.8 -7804.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          9620.4 -7848.6
+          9683.6 -7848.6
+          9728.2 -7804.0
+          9728.2 -6572.4
+          9683.6 -6527.8
+          9620.4 -6527.8
+          9575.8 -6572.4
+          9575.8 -7804.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          8579.0 -6680.2
+          9683.6 -6680.2
+          9728.2 -6635.6
+          9728.2 -6572.4
+          9683.6 -6527.8
+          8579.0 -6527.8
+          8534.4 -6572.4
+          8534.4 -6635.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          8579.0 -6680.2
+          8642.2 -6680.2
+          8686.8 -6635.6
+          8686.8 -5785.0
+          8642.2 -5740.4
+          8579.0 -5740.4
+          8534.4 -5785.0
+          8534.4 -6635.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          6953.4 -5892.8
+          8642.2 -5892.8
+          8686.8 -5848.2
+          8686.8 -5785.0
+          8642.2 -5740.4
+          6953.4 -5740.4
+          6908.8 -5785.0
+          6908.8 -5848.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          6953.4 -7061.2
+          7016.6 -7061.2
+          7061.2 -7016.6
+          7061.2 -5785.0
+          7016.6 -5740.4
+          6953.4 -5740.4
+          6908.8 -5785.0
+          6908.8 -7016.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7016.6 -7061.2
+          7016.6 -7061.2
+          7061.2 -7016.6
+          7061.2 -6953.4
+          7016.6 -6908.8
+          -7016.6 -6908.8
+          -7061.2 -6953.4
+          -7061.2 -7016.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7016.6 -7061.2
+          -6953.4 -7061.2
+          -6908.8 -7016.6
+          -6908.8 -5785.0
+          -6953.4 -5740.4
+          -7016.6 -5740.4
+          -7061.2 -5785.0
+          -7061.2 -7016.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -8642.2 -5892.8
+          -6953.4 -5892.8
+          -6908.8 -5848.2
+          -6908.8 -5785.0
+          -6953.4 -5740.4
+          -8642.2 -5740.4
+          -8686.8 -5785.0
+          -8686.8 -5848.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          -8642.2 -6680.2
+          -8579.0 -6680.2
+          -8534.4 -6635.6
+          -8534.4 -5785.0
+          -8579.0 -5740.4
+          -8642.2 -5740.4
+          -8686.8 -5785.0
+          -8686.8 -6635.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -9683.6 -6680.2
+          -8579.0 -6680.2
+          -8534.4 -6635.6
+          -8534.4 -6572.4
+          -8579.0 -6527.8
+          -9683.6 -6527.8
+          -9728.2 -6572.4
+          -9728.2 -6635.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -9683.6 -7848.6
+          -9620.4 -7848.6
+          -9575.8 -7804.0
+          -9575.8 -6572.4
+          -9620.4 -6527.8
+          -9683.6 -6527.8
+          -9728.2 -6572.4
+          -9728.2 -7804.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          -14255.6 -7848.6
+          -9620.4 -7848.6
+          -9575.8 -7804.0
+          -9575.8 -7740.8
+          -9620.4 -7696.2
+          -14255.6 -7696.2
+          -14300.2 -7740.8
+          -14300.2 -7804.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          -14255.6 -7848.6
+          -14192.4 -7848.6
+          -14147.8 -7804.0
+          -14147.8 -6572.4
+          -14192.4 -6527.8
+          -14255.6 -6527.8
+          -14300.2 -6572.4
+          -14300.2 -7804.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15297.0 -6680.2
+          -14192.4 -6680.2
+          -14147.8 -6635.6
+          -14147.8 -6572.4
+          -14192.4 -6527.8
+          -15297.0 -6527.8
+          -15341.6 -6572.4
+          -15341.6 -6635.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15297.0 -6680.2
+          -15233.8 -6680.2
+          -15189.2 -6635.6
+          -15189.2 -476.4
+          -15233.8 -431.8
+          -15297.0 -431.8
+          -15341.6 -476.4
+          -15341.6 -6635.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -16160.6 -584.2
+          -15233.8 -584.2
+          -15189.2 -539.6
+          -15189.2 -476.4
+          -15233.8 -431.8
+          -16160.6 -431.8
+          -16205.2 -476.4
+          -16205.2 -539.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -16160.6 -584.2
+          -16097.4 -584.2
+          -16052.8 -539.6
+          -16052.8 2317.6
+          -16097.4 2362.2
+          -16160.6 2362.2
+          -16205.2 2317.6
+          -16205.2 -539.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -16160.6 2209.8
+          -15233.8 2209.8
+          -15189.2 2254.4
+          -15189.2 2317.6
+          -15233.8 2362.2
+          -16160.6 2362.2
+          -16205.2 2317.6
+          -16205.2 2254.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15297.0 2209.8
+          -15233.8 2209.8
+          -15189.2 2254.4
+          -15189.2 5721.2
+          -15233.8 5765.8
+          -15297.0 5765.8
+          -15341.6 5721.2
+          -15341.6 2254.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15297.0 5613.4
+          -8579.0 5613.4
+          -8534.4 5658.0
+          -8534.4 5721.2
+          -8579.0 5765.8
+          -15297.0 5765.8
+          -15341.6 5721.2
+          -15341.6 5658.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          -8642.2 4800.6
+          -8579.0 4800.6
+          -8534.4 4845.2
+          -8534.4 5721.2
+          -8579.0 5765.8
+          -8642.2 5765.8
+          -8686.8 5721.2
+          -8686.8 4845.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          -8642.2 4800.6
+          -6953.4 4800.6
+          -6908.8 4845.2
+          -6908.8 4908.4
+          -6953.4 4953.0
+          -8642.2 4953.0
+          -8686.8 4908.4
+          -8686.8 4845.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7016.6 4800.6
+          -6953.4 4800.6
+          -6908.8 4845.2
+          -6908.8 7016.6
+          -6953.4 7061.2
+          -7016.6 7061.2
+          -7061.2 7016.6
+          -7061.2 4845.2
+        )
+      )
+      (outline
+        (polygon signal 0
+          8477.4 7543.8
+          15398.6 7543.8
+          15443.2 7588.4
+          15443.2 7651.6
+          15398.6 7696.2
+          8477.4 7696.2
+          8432.8 7651.6
+          8432.8 7588.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          8477.4 -7696.2
+          8540.6 -7696.2
+          8585.2 -7651.6
+          8585.2 7651.6
+          8540.6 7696.2
+          8477.4 7696.2
+          8432.8 7651.6
+          8432.8 -7651.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -8540.6 -7696.2
+          8540.6 -7696.2
+          8585.2 -7651.6
+          8585.2 -7588.4
+          8540.6 -7543.8
+          -8540.6 -7543.8
+          -8585.2 -7588.4
+          -8585.2 -7651.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -8540.6 -7696.2
+          -8477.4 -7696.2
+          -8432.8 -7651.6
+          -8432.8 7651.6
+          -8477.4 7696.2
+          -8540.6 7696.2
+          -8585.2 7651.6
+          -8585.2 -7651.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15398.6 7543.8
+          -8477.4 7543.8
+          -8432.8 7588.4
+          -8432.8 7651.6
+          -8477.4 7696.2
+          -15398.6 7696.2
+          -15443.2 7651.6
+          -15443.2 7588.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15398.6 -10236.2
+          -15335.4 -10236.2
+          -15290.8 -10191.6
+          -15290.8 7651.6
+          -15335.4 7696.2
+          -15398.6 7696.2
+          -15443.2 7651.6
+          -15443.2 -10191.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -15398.6 -10236.2
+          15398.6 -10236.2
+          15443.2 -10191.6
+          15443.2 -10128.4
+          15398.6 -10083.8
+          -15398.6 -10083.8
+          -15443.2 -10128.4
+          -15443.2 -10191.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          15335.4 -10236.2
+          15398.6 -10236.2
+          15443.2 -10191.6
+          15443.2 7651.6
+          15398.6 7696.2
+          15335.4 7696.2
+          15290.8 7651.6
+          15290.8 -10191.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7812.1 -6550.0
+          -7687.9 -6550.0
+          -7600.0 -6462.1
+          -7600.0 6462.1
+          -7687.9 6550.0
+          -7812.1 6550.0
+          -7900.0 6462.1
+          -7900.0 -6462.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7812.1 -6550.0
+          7812.1 -6550.0
+          7900.0 -6462.1
+          7900.0 -6337.9
+          7812.1 -6250.0
+          -7812.1 -6250.0
+          -7900.0 -6337.9
+          -7900.0 -6462.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          7687.9 -6550.0
+          7812.1 -6550.0
+          7900.0 -6462.1
+          7900.0 6462.1
+          7812.1 6550.0
+          7687.9 6550.0
+          7600.0 6462.1
+          7600.0 -6462.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7812.1 6250.0
+          7812.1 6250.0
+          7900.0 6337.9
+          7900.0 6462.1
+          7812.1 6550.0
+          -7812.1 6550.0
+          -7900.0 6462.1
+          -7900.0 6337.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7682.1 7470.0
+          7682.1 7470.0
+          7770.0 7557.9
+          7770.0 7682.1
+          7682.1 7770.0
+          -7682.1 7770.0
+          -7770.0 7682.1
+          -7770.0 7557.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          7557.9 -7770.0
+          7682.1 -7770.0
+          7770.0 -7682.1
+          7770.0 7682.1
+          7682.1 7770.0
+          7557.9 7770.0
+          7470.0 7682.1
+          7470.0 -7682.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7682.1 -7770.0
+          7682.1 -7770.0
+          7770.0 -7682.1
+          7770.0 -7557.9
+          7682.1 -7470.0
+          -7682.1 -7470.0
+          -7770.0 -7557.9
+          -7770.0 -7682.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -7682.1 -7770.0
+          -7557.9 -7770.0
+          -7470.0 -7682.1
+          -7470.0 7682.1
+          -7557.9 7770.0
+          -7682.1 7770.0
+          -7770.0 7682.1
+          -7770.0 -7682.1
+        )
+      )
+    )
+    (padstack "Round[A]Pad_1600_um"
+      (shape
+        (circle F.Cu 1600.0 0.0 0.0)
+      )
+      (shape
+        (circle B.Cu 1600.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_1752.6_um"
+      (shape
+        (circle F.Cu 1752.6 0.0 0.0)
+      )
+      (shape
+        (circle B.Cu 1752.6 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_1800_um"
+      (shape
+        (circle F.Cu 1800.0 0.0 0.0)
+      )
+      (shape
+        (circle B.Cu 1800.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Oval[A]Pad_2500x3080_um"
+      (shape
+        (polygon F.Cu 0
+          -517.8 -1540.0
+          517.8 -1540.0
+          1250.0 -807.8
+          1250.0 807.8
+          517.8 1540.0
+          -517.8 1540.0
+          -1250.0 807.8
+          -1250.0 -807.8
+        )
+      )
+      (shape
+        (polygon B.Cu 0
+          -517.8 -1540.0
+          517.8 -1540.0
+          1250.0 -807.8
+          1250.0 807.8
+          517.8 1540.0
+          -517.8 1540.0
+          -1250.0 807.8
+          -1250.0 -807.8
+        )
+      )
+      (attach off)
+    )
+    (padstack "Oval[A]Pad_2500x4170_um"
+      (shape
+        (polygon F.Cu 0
+          -517.8 -2085.0
+          517.8 -2085.0
+          1250.0 -1352.8
+          1250.0 1352.8
+          517.8 2085.0
+          -517.8 2085.0
+          -1250.0 1352.8
+          -1250.0 -1352.8
+        )
+      )
+      (shape
+        (polygon B.Cu 0
+          -517.8 -2085.0
+          517.8 -2085.0
+          1250.0 -1352.8
+          1250.0 1352.8
+          517.8 2085.0
+          -517.8 2085.0
+          -1250.0 1352.8
+          -1250.0 -1352.8
+        )
+      )
+      (attach off)
+    )
+    (padstack "Rect[T]Pad_2500x500_um"
+      (shape
+        (rect F.Cu -1250.0 -250.0 1250.0 250.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[T]Pad_1200x1200_um"
+      (shape
+        (rect F.Cu -600.0 -600.0 600.0 600.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_1600x1600_um"
+      (shape
+        (rect F.Cu -800.0 -800.0 800.0 800.0)
+      )
+      (shape
+        (rect B.Cu -800.0 -800.0 800.0 800.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[T]Pad_1700x1000_um"
+      (shape
+        (rect F.Cu -850.0 -500.0 850.0 500.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_1752.6x1752.6_um"
+      (shape
+        (rect F.Cu -876.3 -876.3 876.3 876.3)
+      )
+      (shape
+        (rect B.Cu -876.3 -876.3 876.3 876.3)
+      )
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape
+        (circle F.Cu 600.0 0.0 0.0)
+      )
+      (shape
+        (circle B.Cu 600.0 0.0 0.0)
+      )
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(D1-Pad2)" 1
+      (pins
+        KTab1-2
+        D1-2@2
+        D1-2@1
+        D1-2
+      )
+    )
+    (net /row0 1
+      (pins
+        U1-20
+        D46-1@2
+        D46-1@1
+        D46-1
+        D38-1@2
+        D38-1@1
+        D38-1
+        D31-1@2
+        D31-1@1
+        D31-1
+        D24-1@2
+        D24-1@1
+        D24-1
+        D17-1@2
+        D17-1@1
+        D17-1
+        D9-1@2
+        D9-1@1
+        D9-1
+        D1-1@2
+        D1-1@1
+        D1-1
+      )
+    )
+    (net "Net-(D2-Pad2)" 1
+      (pins
+        KEsc1-2
+        D2-2@2
+        D2-2@1
+        D2-2
+      )
+    )
+    (net /row1 1
+      (pins
+        U1-19
+        D47-1@2
+        D47-1@1
+        D47-1
+        D39-1@2
+        D39-1@1
+        D39-1
+        D32-1@2
+        D32-1@1
+        D32-1
+        D25-1@2
+        D25-1@1
+        D25-1
+        D18-1@2
+        D18-1@1
+        D18-1
+        D10-1@2
+        D10-1@1
+        D10-1
+        D2-1@2
+        D2-1@1
+        D2-1
+      )
+    )
+    (net "Net-(D3-Pad2)" 1
+      (pins
+        KLShift1-2
+        D3-2@2
+        D3-2@1
+        D3-2
+      )
+    )
+    (net /row2 1
+      (pins
+        U1-18
+        D48-1@2
+        D48-1@1
+        D48-1
+        D40-1@2
+        D40-1@1
+        D40-1
+        D33-1@2
+        D33-1@1
+        D33-1
+        D26-1@2
+        D26-1@1
+        D26-1
+        D19-1@2
+        D19-1@1
+        D19-1
+        D11-1@2
+        D11-1@1
+        D11-1
+        D3-1@2
+        D3-1@1
+        D3-1
+      )
+    )
+    (net "Net-(D4-Pad2)" 1
+      (pins
+        KCtrl1-2
+        D4-2@2
+        D4-2@1
+        D4-2
+      )
+    )
+    (net /row3 1
+      (pins
+        U1-17
+        D49-1@2
+        D49-1@1
+        D49-1
+        D41-1@2
+        D41-1@1
+        D41-1
+        D34-1@2
+        D34-1@1
+        D34-1
+        D27-1@2
+        D27-1@1
+        D27-1
+        D20-1@2
+        D20-1@1
+        D20-1
+        D12-1@2
+        D12-1@1
+        D12-1
+        D4-1@2
+        D4-1@1
+        D4-1
+      )
+    )
+    (net "Net-(D5-Pad2)" 1
+      (pins
+        KQ1-2
+        D5-2@2
+        D5-2@1
+        D5-2
+      )
+    )
+    (net /row4 1
+      (pins
+        U1-16
+        D50-1@2
+        D50-1@1
+        D50-1
+        D42-1@2
+        D42-1@1
+        D42-1
+        D35-1@2
+        D35-1@1
+        D35-1
+        D28-1@2
+        D28-1@1
+        D28-1
+        D21-1@2
+        D21-1@1
+        D21-1
+        D13-1@2
+        D13-1@1
+        D13-1
+        D5-1@2
+        D5-1@1
+        D5-1
+      )
+    )
+    (net "Net-(D6-Pad2)" 1
+      (pins
+        KA1-2
+        D6-2@2
+        D6-2@1
+        D6-2
+      )
+    )
+    (net /row5 1
+      (pins
+        U1-15
+        D51-1@2
+        D51-1@1
+        D51-1
+        D43-1@2
+        D43-1@1
+        D43-1
+        D36-1@2
+        D36-1@1
+        D36-1
+        D29-1@2
+        D29-1@1
+        D29-1
+        D22-1@2
+        D22-1@1
+        D22-1
+        D14-1@2
+        D14-1@1
+        D14-1
+        D6-1@2
+        D6-1@1
+        D6-1
+      )
+    )
+    (net "Net-(D7-Pad2)" 1
+      (pins
+        KZ1-2
+        D7-2@2
+        D7-2@1
+        D7-2
+      )
+    )
+    (net /row6 1
+      (pins
+        U1-14
+        D44-1@2
+        D44-1@1
+        D44-1
+        D37-1@2
+        D37-1@1
+        D37-1
+        D30-1@2
+        D30-1@1
+        D30-1
+        D23-1@2
+        D23-1@1
+        D23-1
+        D15-1@2
+        D15-1@1
+        D15-1
+        D7-1@2
+        D7-1@1
+        D7-1
+      )
+    )
+    (net "Net-(D8-Pad2)" 1
+      (pins
+        KWin1-2
+        D8-2@2
+        D8-2@1
+        D8-2
+      )
+    )
+    (net "Net-(D16-Pad1)" 1
+      (pins
+        D52-1@2
+        D52-1@1
+        D52-1
+        D45-1@2
+        D45-1@1
+        D45-1
+        D16-1@2
+        D16-1@1
+        D16-1
+        D8-1@2
+        D8-1@1
+        D8-1
+      )
+    )
+    (net "Net-(D9-Pad2)" 1
+      (pins
+        KW1-2
+        D9-2@2
+        D9-2@1
+        D9-2
+      )
+    )
+    (net "Net-(D10-Pad2)" 1
+      (pins
+        KS1-2
+        D10-2@2
+        D10-2@1
+        D10-2
+      )
+    )
+    (net "Net-(D11-Pad2)" 1
+      (pins
+        KX1-2
+        D11-2@2
+        D11-2@1
+        D11-2
+      )
+    )
+    (net "Net-(D12-Pad2)" 1
+      (pins
+        KLAlt1-2
+        D12-2@2
+        D12-2@1
+        D12-2
+      )
+    )
+    (net "Net-(D13-Pad2)" 1
+      (pins
+        KE1-2
+        D13-2@2
+        D13-2@1
+        D13-2
+      )
+    )
+    (net "Net-(D14-Pad2)" 1
+      (pins
+        KD1-2
+        D14-2@2
+        D14-2@1
+        D14-2
+      )
+    )
+    (net "Net-(D15-Pad2)" 1
+      (pins
+        KC1-2
+        D15-2@2
+        D15-2@1
+        D15-2
+      )
+    )
+    (net "Net-(D16-Pad2)" 1
+      (pins
+        KLSpace1-2
+        D16-2@2
+        D16-2@1
+        D16-2
+      )
+    )
+    (net "Net-(D17-Pad2)" 1
+      (pins
+        KR1-2
+        D17-2@2
+        D17-2@1
+        D17-2
+      )
+    )
+    (net "Net-(D18-Pad2)" 1
+      (pins
+        KF1-2
+        D18-2@2
+        D18-2@1
+        D18-2
+      )
+    )
+    (net "Net-(D19-Pad2)" 1
+      (pins
+        KV1-2
+        D19-2@2
+        D19-2@1
+        D19-2
+      )
+    )
+    (net "Net-(D20-Pad2)" 1
+      (pins
+        KT1-2
+        D20-2@2
+        D20-2@1
+        D20-2
+      )
+    )
+    (net "Net-(D21-Pad2)" 1
+      (pins
+        KG1-2
+        D21-2@2
+        D21-2@1
+        D21-2
+      )
+    )
+    (net "Net-(D22-Pad2)" 1
+      (pins
+        KB1-2
+        D22-2@2
+        D22-2@1
+        D22-2
+      )
+    )
+    (net "Net-(D23-Pad2)" 1
+      (pins
+        KMSpace1-2
+        D23-2@2
+        D23-2@1
+        D23-2
+      )
+    )
+    (net "Net-(D24-Pad2)" 1
+      (pins
+        KY1-2
+        D24-2@2
+        D24-2@1
+        D24-2
+      )
+    )
+    (net "Net-(D25-Pad2)" 1
+      (pins
+        KH1-2
+        D25-2@2
+        D25-2@1
+        D25-2
+      )
+    )
+    (net "Net-(D26-Pad2)" 1
+      (pins
+        KN1-2
+        D26-2@2
+        D26-2@1
+        D26-2
+      )
+    )
+    (net "Net-(D27-Pad2)" 1
+      (pins
+        KU1-2
+        D27-2@2
+        D27-2@1
+        D27-2
+      )
+    )
+    (net "Net-(D28-Pad2)" 1
+      (pins
+        KJ1-2
+        D28-2@2
+        D28-2@1
+        D28-2
+      )
+    )
+    (net "Net-(D29-Pad2)" 1
+      (pins
+        KM1-2
+        D29-2@2
+        D29-2@1
+        D29-2
+      )
+    )
+    (net "Net-(D30-Pad2)" 1
+      (pins
+        KRSpace1-2
+        D30-2@2
+        D30-2@1
+        D30-2
+      )
+    )
+    (net "Net-(D31-Pad2)" 1
+      (pins
+        KI1-2
+        D31-2@2
+        D31-2@1
+        D31-2
+      )
+    )
+    (net "Net-(D32-Pad2)" 1
+      (pins
+        KK1-2
+        D32-2@2
+        D32-2@1
+        D32-2
+      )
+    )
+    (net "Net-(D33-Pad2)" 1
+      (pins
+        K<1-2
+        D33-2@2
+        D33-2@1
+        D33-2
+      )
+    )
+    (net "Net-(D34-Pad2)" 1
+      (pins
+        KO1-2
+        D34-2@2
+        D34-2@1
+        D34-2
+      )
+    )
+    (net "Net-(D35-Pad2)" 1
+      (pins
+        KL1-2
+        D35-2@2
+        D35-2@1
+        D35-2
+      )
+    )
+    (net "Net-(D36-Pad2)" 1
+      (pins
+        K>1-2
+        D36-2@2
+        D36-2@1
+        D36-2
+      )
+    )
+    (net "Net-(D37-Pad2)" 1
+      (pins
+        KRAlt1-2
+        D37-2@2
+        D37-2@1
+        D37-2
+      )
+    )
+    (net "Net-(D38-Pad2)" 1
+      (pins
+        KP1-2
+        D38-2@2
+        D38-2@1
+        D38-2
+      )
+    )
+    (net "Net-(D39-Pad2)" 1
+      (pins
+        K:1-2
+        D39-2@2
+        D39-2@1
+        D39-2
+      )
+    )
+    (net "Net-(D40-Pad2)" 1
+      (pins
+        K/1-2
+        D40-2@2
+        D40-2@1
+        D40-2
+      )
+    )
+    (net "Net-(D41-Pad2)" 1
+      (pins
+        KFn1-2
+        D41-2@2
+        D41-2@1
+        D41-2
+      )
+    )
+    (net "Net-(D42-Pad2)" 1
+      (pins
+        KBack1-2
+        D42-2@2
+        D42-2@1
+        D42-2
+      )
+    )
+    (net "Net-(D43-Pad2)" 1
+      (pins
+        K"1-2
+        D43-2@2
+        D43-2@1
+        D43-2
+      )
+    )
+    (net "Net-(D44-Pad2)" 1
+      (pins
+        KRShift1-2
+        D44-2@2
+        D44-2@1
+        D44-2
+      )
+    )
+    (net "Net-(D45-Pad2)" 1
+      (pins
+        KLeft1-2
+        D45-2@2
+        D45-2@1
+        D45-2
+      )
+    )
+    (net "Net-(D46-Pad2)" 1
+      (pins
+        KTLSq1-2
+        D46-2@2
+        D46-2@1
+        D46-2
+      )
+    )
+    (net "Net-(D47-Pad2)" 1
+      (pins
+        KBLSq1-2
+        D47-2@2
+        D47-2@1
+        D47-2
+      )
+    )
+    (net "Net-(D48-Pad2)" 1
+      (pins
+        KUp1-2
+        D48-2@2
+        D48-2@1
+        D48-2
+      )
+    )
+    (net "Net-(D49-Pad2)" 1
+      (pins
+        KDown1-2
+        D49-2@2
+        D49-2@1
+        D49-2
+      )
+    )
+    (net "Net-(D50-Pad2)" 1
+      (pins
+        KTRSq1-2
+        D50-2@2
+        D50-2@1
+        D50-2
+      )
+    )
+    (net "Net-(D51-Pad2)" 1
+      (pins
+        KBRSq1-2
+        D51-2@2
+        D51-2@1
+        D51-2
+      )
+    )
+    (net "Net-(D52-Pad2)" 1
+      (pins
+        KRight1-2
+        D52-2@2
+        D52-2@1
+        D52-2
+      )
+    )
+    (net /col5 1
+      (pins
+        KRShift1-1
+        KP1-1
+        KLeft1-1
+        KFn1-1
+        KBack1-1
+        K:1-1
+        K/1-1
+        K"1-1
+      )
+    )
+    (net /col4 1
+      (pins
+        KRAlt1-1
+        KO1-1
+        KL1-1
+        KK1-1
+        KI1-1
+        K>1-1
+        K<1-1
+      )
+    )
+    (net /col0 1
+      (pins
+        KZ1-1
+        KWin1-1
+        KTab1-1
+        KQ1-1
+        KLShift1-1
+        KEsc1-1
+        KCtrl1-1
+        KA1-1
+      )
+    )
+    (net /col2 1
+      (pins
+        KMSpace1-1
+        KV1-1
+        KT1-1
+        KR1-1
+        KG1-1
+        KF1-1
+        KB1-1
+      )
+    )
+    (net /col6 1
+      (pins
+        KUp1-1
+        KTRSq1-1
+        KTLSq1-1
+        KRight1-1
+        KDown1-1
+        KBRSq1-1
+        KBLSq1-1
+      )
+    )
+    (net /col1 1
+      (pins
+        KLSpace1-1
+        KX1-1
+        KW1-1
+        KS1-1
+        KLAlt1-1
+        KE1-1
+        KD1-1
+        KC1-1
+      )
+    )
+    (net /col3 1
+      (pins
+        KRSpace1-1
+        KY1-1
+        KU1-1
+        KN1-1
+        KM1-1
+        KJ1-1
+        KH1-1
+      )
+    )
+    (net VCC 1
+      (pins
+        J2-1
+        U1-21
+      )
+    )
+    (net GND 1
+      (pins
+        J3-1
+        U1-23
+        U1-4
+        U1-3
+        SW1-2@1
+        SW1-2
+      )
+    )
+    (net "Net-(SW1-Pad1)" 1
+      (pins
+        U1-22
+        SW1-1@1
+        SW1-1
+      )
+    )
+    (net "Net-(U1-Pad1)" 1
+      (pins
+        U1-1
+      )
+    )
+    (net "Net-(U1-Pad2)" 1
+      (pins
+        U1-2
+      )
+    )
+    (net "Net-(U1-Pad5)" 1
+      (pins
+        U1-5
+      )
+    )
+    (net "Net-(U1-Pad6)" 1
+      (pins
+        U1-6
+      )
+    )
+    (net "Net-(U1-Pad7)" 1
+      (pins
+        U1-7
+      )
+    )
+    (net "Net-(U1-Pad8)" 1
+      (pins
+        U1-8
+      )
+    )
+    (net "Net-(U1-Pad9)" 1
+      (pins
+        U1-9
+      )
+    )
+    (net "Net-(U1-Pad10)" 1
+      (pins
+        U1-10
+      )
+    )
+    (net "Net-(U1-Pad11)" 1
+      (pins
+        U1-11
+      )
+    )
+    (net "Net-(U1-Pad12)" 1
+      (pins
+        U1-12
+      )
+    )
+    (net "Net-(U1-Pad24)" 1
+      (pins
+        U1-24
+      )
+    )
+    (net /row7 1
+      (pins
+        U1-13
+      )
+    )
+    (net /RGB 1
+      (pins
+        J1-1
+      )
+    )
+    (via 
+      "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+    )
+    (via 
+      "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+    )
+    (via_rule
+      default "Via[0-1]_600:400_um"
+    )
+    (via_rule
+      "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+    )
+    (class default
+      (clearance_class default)
+      (via_rule default)
+      (rule
+        (width 250.0)
+      )
+      (circuit 
+        (use_layer F.Cu B.Cu)
+      )
+    )
+    (class "kicad_default"
+      "Net-(D1-Pad2)" /row0 "Net-(D2-Pad2)" /row1 "Net-(D3-Pad2)" /row2 "Net-(D4-Pad2)" /row3
+      "Net-(D5-Pad2)" /row4 "Net-(D6-Pad2)" /row5 "Net-(D7-Pad2)" /row6 "Net-(D8-Pad2)" "Net-(D16-Pad1)"
+      "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)"
+      "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)"
+      "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)" "Net-(D32-Pad2)"
+      "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)" "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)" "Net-(D39-Pad2)" "Net-(D40-Pad2)"
+      "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)" "Net-(D44-Pad2)" "Net-(D45-Pad2)" "Net-(D46-Pad2)" "Net-(D47-Pad2)" "Net-(D48-Pad2)"
+      "Net-(D49-Pad2)" "Net-(D50-Pad2)" "Net-(D51-Pad2)" "Net-(D52-Pad2)" /col5 /col4 /col0 /col2
+      /col6 /col1 /col3 VCC GND "Net-(SW1-Pad1)" "Net-(U1-Pad1)" "Net-(U1-Pad2)"
+      "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad24)" /row7 /RGB
+      (clearance_class "kicad_default")
+      (via_rule kicad_default)
+      (rule
+        (width 250.0)
+      )
+      (circuit 
+        (use_layer F.Cu B.Cu)
+      )
+    )
+  )
+  (wiring
+  )
+)
