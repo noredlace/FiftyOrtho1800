@@ -14,7 +14,7 @@ In an attempt to learn how to design a PCB I chose to design an ortho layout tha
 
 
 Of course this comes with the consequence of not having beautiful tracing lines especially with this being my first design.
-Top
+\nTop
 ![alt text](https://raw.githubusercontent.com/noredlace/FiftyOrtho1800/master/pcb/fifty%20ortho%20top.png)
 Bottom
 ![alt text](https://raw.githubusercontent.com/noredlace/FiftyOrtho1800/master/pcb/fifty%20ortho%20bottom.png)
