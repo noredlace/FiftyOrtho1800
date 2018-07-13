@@ -1,2 +1,4 @@
 # FiftyOrtho1800
-Custom Keyboard Files
+A design by u/lizardsticks
+
+A fifty Ortho based off of the arrow cluster for the 1800 layout
