@@ -1,0 +1,931 @@
+Cmp-Mod V01 Created by PcbNew   date = 7/12/2018 7:02:54 PM
+
+BeginCmp
+TimeStamp = 5B4696F6
+Path = /5B45CE36
+Reference = D1;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469700
+Path = /5B45D5BA
+Reference = D2;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46970A
+Path = /5B45D7CF
+Reference = D3;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469714
+Path = /5B45D7DC
+Reference = D4;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46971E
+Path = /5B45DD7A
+Reference = D5;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469728
+Path = /5B45DD87
+Reference = D6;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469732
+Path = /5B45DD94
+Reference = D7;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46973C
+Path = /5B45DDA1
+Reference = D8;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469746
+Path = /5B45EBE3
+Reference = D9;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469750
+Path = /5B45EBF0
+Reference = D10;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46975A
+Path = /5B45EBFD
+Reference = D11;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469764
+Path = /5B45EC0A
+Reference = D12;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46976E
+Path = /5B4601A7
+Reference = D13;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469778
+Path = /5B4601B4
+Reference = D14;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469782
+Path = /5B4601C1
+Reference = D15;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46978C
+Path = /5B4601CE
+Reference = D16;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469796
+Path = /5B460D0B
+Reference = D17;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697A0
+Path = /5B460D18
+Reference = D18;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697AA
+Path = /5B460D25
+Reference = D19;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697B4
+Path = /5B460D3F
+Reference = D20;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697BE
+Path = /5B460D4C
+Reference = D21;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697C8
+Path = /5B460D59
+Reference = D22;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697D2
+Path = /5B460D66
+Reference = D23;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697DC
+Path = /5B460D73
+Reference = D24;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697E6
+Path = /5B460D80
+Reference = D25;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697F0
+Path = /5B460D8D
+Reference = D26;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4697FA
+Path = /5B460DA7
+Reference = D27;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469804
+Path = /5B460DB4
+Reference = D28;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46980E
+Path = /5B460DC1
+Reference = D29;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469818
+Path = /5B460DCE
+Reference = D30;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469822
+Path = /5B461DDB
+Reference = D31;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46982C
+Path = /5B461DE8
+Reference = D32;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469836
+Path = /5B461DF5
+Reference = D33;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469840
+Path = /5B461E0F
+Reference = D34;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46984A
+Path = /5B461E1C
+Reference = D35;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469854
+Path = /5B461E29
+Reference = D36;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46985E
+Path = /5B461E36
+Reference = D37;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469868
+Path = /5B461E43
+Reference = D38;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469872
+Path = /5B461E50
+Reference = D39;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46987C
+Path = /5B461E5D
+Reference = D40;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469886
+Path = /5B461E6A
+Reference = D41;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469890
+Path = /5B461E77
+Reference = D42;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46989A
+Path = /5B461E84
+Reference = D43;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698A4
+Path = /5B461E91
+Reference = D44;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698AE
+Path = /5B461E9E
+Reference = D45;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698B8
+Path = /5B461EAB
+Reference = D46;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698C2
+Path = /5B461EB8
+Reference = D47;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698CC
+Path = /5B461EC5
+Reference = D48;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698D6
+Path = /5B461ED2
+Reference = D49;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698E0
+Path = /5B461EDF
+Reference = D50;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698EA
+Path = /5B461EEC
+Reference = D51;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698F4
+Path = /5B461F06
+Reference = D52;
+ValeurCmp = D;
+IdModule  = keyboard_parts:D_SOD123_axial;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698F9
+Path = /5B4C1AD2
+Reference = H1;
+ValeurCmp = Hole;
+IdModule  = keyboard_parts:HOLE_M2.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4698FE
+Path = /5B4C1FA4
+Reference = H2;
+ValeurCmp = Hole;
+IdModule  = keyboard_parts:HOLE_M2.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469903
+Path = /5B4C1CD9
+Reference = H3;
+ValeurCmp = Hole;
+IdModule  = keyboard_parts:HOLE_M2.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469908
+Path = /5B4C1E39
+Reference = H4;
+ValeurCmp = Hole;
+IdModule  = keyboard_parts:HOLE_M2.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469911
+Path = /5B461E7E
+Reference = K"1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46991A
+Path = /5B461E57
+Reference = K/1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469923
+Path = /5B461E4A
+Reference = K:1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46992C
+Path = /5B461DEF
+Reference = K<1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469935
+Path = /5B461E23
+Reference = K>1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46993E
+Path = /5B45DD81
+Reference = KA1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469947
+Path = /5B460D53
+Reference = KB1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469950
+Path = /5B461E71
+Reference = KBack1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469959
+Path = /5B461EB2
+Reference = KBLSq1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469962
+Path = /5B461EE6
+Reference = KBRSq1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46996B
+Path = /5B4601BB
+Reference = KC1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469974
+Path = /5B45D7D6
+Reference = KCtrl1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46997D
+Path = /5B4601AE
+Reference = KD1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469986
+Path = /5B461ECC
+Reference = KDown1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46998F
+Path = /5B4601A1
+Reference = KE1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469998
+Path = /5B45D5B4
+Reference = KEsc1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699A1
+Path = /5B460D12
+Reference = KF1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699AA
+Path = /5B461E64
+Reference = KFn1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699B3
+Path = /5B460D46
+Reference = KG1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699BC
+Path = /5B460D7A
+Reference = KH1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699C5
+Path = /5B461DD5
+Reference = KI1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699CE
+Path = /5B460DAE
+Reference = KJ1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699D7
+Path = /5B461DE2
+Reference = KK1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699E0
+Path = /5B461E16
+Reference = KL1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699E9
+Path = /5B45EC04
+Reference = KLAlt1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699F2
+Path = /5B461E98
+Reference = KLeft1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4699FB
+Path = /5B45D7C9
+Reference = KLShift1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A0D
+Path = /5B460DBB
+Reference = KM1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A1F
+Path = /5B460D87
+Reference = KN1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A28
+Path = /5B461E09
+Reference = KO1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A31
+Path = /5B461E3D
+Reference = KP1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A3A
+Path = /5B45DD74
+Reference = KQ1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A43
+Path = /5B460D05
+Reference = KR1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A4C
+Path = /5B461E30
+Reference = KRAlt1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A55
+Path = /5B461F00
+Reference = KRight1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A5E
+Path = /5B461E8B
+Reference = KRShift1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A70
+Path = /5B45EBEA
+Reference = KS1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A79
+Path = /5B460D39
+Reference = KT1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A82
+Path = /5B45CAF1
+Reference = KTab1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A8B
+Path = /5B461EA5
+Reference = KTLSq1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A94
+Path = /5B461ED9
+Reference = KTRSq1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469A9D
+Path = /5B460DA1
+Reference = KU1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469AA6
+Path = /5B461EBF
+Reference = KUp1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469AAF
+Path = /5B460D1F
+Reference = KV1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469AB8
+Path = /5B45EBDD
+Reference = KW1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469AC1
+Path = /5B45DD9B
+Reference = KWin1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469ACA
+Path = /5B45EBF7
+Reference = KX1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469AD3
+Path = /5B460D6D
+Reference = KY1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469ADC
+Path = /5B45DD8E
+Reference = KZ1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_100;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469B0B
+Path = /5B459FB6
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Buttons_Switches_SMD:SW_SPST_TL3342;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B469B27
+Path = /5B47069E
+Reference = U1;
+ValeurCmp = ProMicro;
+IdModule  = keebs:Pro_Micro;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46B11A
+Path = /5B4CBC51
+Reference = J1;
+ValeurCmp = Conn_01x01;
+IdModule  = Connectors:Pin_d0.9mm_L10.0mm_W2.4mm_FlatFork;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46B11F
+Path = /5B4CC12F
+Reference = J2;
+ValeurCmp = Conn_01x01;
+IdModule  = Connectors:Pin_d0.9mm_L10.0mm_W2.4mm_FlatFork;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46B124
+Path = /5B4CBFC1
+Reference = J3;
+ValeurCmp = Conn_01x01;
+IdModule  = Connectors:Pin_d0.9mm_L10.0mm_W2.4mm_FlatFork;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B470812
+Path = /5B4D5155
+Reference = H5;
+ValeurCmp = Hole;
+IdModule  = keyboard_parts:HOLE_M2.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B470817
+Path = /5B4D52E9
+Reference = H6;
+ValeurCmp = Hole;
+IdModule  = keyboard_parts:HOLE_M2.6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B470868
+Path = /5B4601C8
+Reference = KLSpace1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4708B9
+Path = /5B460D60
+Reference = KMSpace1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B47090A
+Path = /5B460DC8
+Reference = KRSpace1;
+ValeurCmp = KEYSW;
+IdModule  = keebs:Mx_Alps_200;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B47F074
+Path = /5B47EC83
+Reference = U2;
+ValeurCmp = ProMicro;
+IdModule  = keebs:Teensy_20;
+EndCmp
+
+EndListe
