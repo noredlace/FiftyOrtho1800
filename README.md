@@ -1,7 +1,9 @@
 # 5018OOrtho
 A design by u/lizardsticks
 
-A fifty Ortho based off of the arrow cluster for the 1800 layout
+A fifty Ortho based off of the arrow cluster gaps from the 1800 layout. <br /> 
+Name is a serious WIP. The name is just like what I thought of in my head when thinking of the design. an Ortho with the arrow key Gap, and just so happened to be ~50ish"
+
 
 ![alt text](https://raw.githubusercontent.com/noredlace/FiftyOrtho1800/master/kle/fifty1800%20kle.png)
 
