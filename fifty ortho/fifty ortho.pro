@@ -1,4 +1,4 @@
-update=7/12/2018 6:54:35 PM
+update=7/13/2018 12:28:50 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -75,3 +65,13 @@ LibName33=D:/Users/New folder/KiCad/libraries/kicad_lib_tmk-master/keyboard_part
 LibName34=D:/Users/Downloads/keebio-components-master/promicro
 LibName35=D:/Users/Downloads/kicad-libs-master/mounting-hole
 LibName36=D:/Users/New folder/KiCad/libraries/ProMicroKiCad-master/promicro_library/promicro
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
