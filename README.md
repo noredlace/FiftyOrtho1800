@@ -1,5 +1,5 @@
 # 5018OOrtho
-A design by u/lizardsticks
+A design by u/lizardsticks a.k.a [chkstong yibbibi](https://chkstongyibbibi117162601.wordpress.com/)
 
 A fifty Ortho based off of the arrow cluster gaps from the 1800 layout. <br /> 
 Name is a serious WIP. The name is just like what I thought of in my head when thinking of the design. an Ortho with the arrow key Gap, and just so happened to be ~50ish"
